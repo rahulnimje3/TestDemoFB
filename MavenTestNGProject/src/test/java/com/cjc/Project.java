@@ -52,7 +52,7 @@ public void login() {
 	System.out.println("@Test method start");
 
 	driver.findElement(By.xpath("//input[@name='userName']")).sendKeys("cjc123");
-	driver.findElement(By.xpath("//input[@name='password']")).sendKeys("pass123");
+	driver.findElement(By.xpath("//input[@name='password']")).sendKeys("pass123566");
 	driver.findElement(By.xpath("//input[@name='login']")).click();
 	driver.findElement(By.linkText("SIGN-OFF")).click();
 }
